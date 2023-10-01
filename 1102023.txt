@@ -1,0 +1,15 @@
+Infrastructure as a service: Infrastructure in the cloud terms refer to as hardware resources.
+Framework define infrastructure: We don't have to configure our server for our application. Good example of this is vercel.
+
+Plateform as a service: We are given hardware resources and as well as application to interact with. Good example of this is Google Colab.
+Software as a service: Canva as an example. Only provides the interface to interact with the software hiding the complexity of the plateform in which the software is running on.
+
+MVC: Model is the database where we defined our models. Controller is the backend. View is the frontend where we show our data to user. MVC are three files, ASP.net, C#, Laravel works on MVC principal. 
+MVC developement is difficult to learn. Steeper learning curve for beginners. Slower than component based library.
+
+Angular is slower than ReactJS because React uses Virtual DOM (Document Object Model) where as AngularJS is slower due to two-way data binding. In Angular any change in code makes whole page to re-rendered again. Two-way binding means client can  send data to and from server.
+
+React creates a copy of DOM for our website. If any change happens in the code it only reflects in the copy of DOM also called Virtual DOM. Once changes are made in Virtual DOM it compares it with the Real DOM. Only the changed area in the Real DOM is re-rendered where there is a change. Hence faster performance. Also React only work on single way binding means data can only be received from server, can't send data back to server.
+
+Remix is another framework for React, however it requires few configuration to be made before incorporating the React in Remix. Therefore we use NextJS React framework.
+
